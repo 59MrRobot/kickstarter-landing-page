@@ -3,11 +3,62 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <link
+      rel="shortcut icon"
+      href="/images/favicon.png"
+      type="image/x-icon">
+    <title>Kickstarter</title>
     <link rel="stylesheet" href="./styles/main.scss">
+    <script src="scripts/main.js" defer></script>
   </head>
-  <body>
-    <h1>Hello Mate Academy</h1>
-    <script type="text/javascript" src="scripts/main.js"></script>
+  <body class="page" id="page-top">
+    <header class="header">
+      <div class="header__wrapper">
+        <div class="header__controls">
+          <a href="#">
+            <img
+              src="/images/logo.svg"
+              alt="crybaby logo"
+              class="logo">
+          </a>
+
+          <div class="header__items">
+            <a href="#"
+              class=" header__controls-link">SPECS</a>
+
+            <div>
+              <button
+                class="header__controls-link header__controls-link--en"
+                id="english">EN</button> /
+              <button
+                class="header__controls-link header__controls-link--ua"
+                id="ukranian">UA</button>
+            </div>
+
+            <a href="#"
+              class=" header__controls-link header__controls-link--buy">Buy</a>
+          </div>
+
+          <a
+            href="#menu"
+            class="header__menu-toggler" id="menuOn"></a>
+        </div>
+
+        <div class="header__content">
+          <img
+            src="/images/header.png"
+            alt="speakers"
+            class="header__image">
+
+          <div class="header__content-text">
+            <h1 class="header__title">Futuristic Wireless Speaker</h1>
+
+            <p class="header__text">
+              Luna’s performance is balanced and smooth in all frequency ranges which makes the music both naturally pleasant and distinctly more layered.
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
