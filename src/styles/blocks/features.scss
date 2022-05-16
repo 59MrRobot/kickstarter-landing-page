@@ -52,7 +52,7 @@
     @include elementSize(260px, 48px);
     margin: 51px auto 0;
 
-    &--button {
+    &-button {
       cursor: pointer;
 
       border: none;
@@ -76,7 +76,7 @@
         }
       }
 
-      &-next {
+      &--next {
         &-inactive {
           background-image: url("/images/features/next_inactive.svg");
           display: none;
